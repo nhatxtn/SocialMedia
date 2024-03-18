@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\SocialMedia\\SocialMedia\\SocialMedia.csproj": {}
+    "D:\\Work Space\\SWD\\SocialMedia\\SocialMedia\\SocialMedia.csproj": {}
   },
   "projects": {
-    "F:\\SocialMedia\\SocialMedia\\SocialMedia.csproj": {
+    "D:\\Work Space\\SWD\\SocialMedia\\SocialMedia\\SocialMedia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\SocialMedia\\SocialMedia\\SocialMedia.csproj",
+        "projectUniqueName": "D:\\Work Space\\SWD\\SocialMedia\\SocialMedia\\SocialMedia.csproj",
         "projectName": "SocialMedia",
-        "projectPath": "F:\\SocialMedia\\SocialMedia\\SocialMedia.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "F:\\SocialMedia\\SocialMedia\\obj\\",
+        "projectPath": "D:\\Work Space\\SWD\\SocialMedia\\SocialMedia\\SocialMedia.csproj",
+        "packagesPath": "C:\\Users\\LAM\\.nuget\\packages\\",
+        "outputPath": "D:\\Work Space\\SWD\\SocialMedia\\SocialMedia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\LAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
