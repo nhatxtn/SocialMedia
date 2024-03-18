@@ -1,0 +1,135 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SocialMedia
+build_property.RootNamespace = SocialMedia
+build_property.ProjectDir = F:\SocialMedia\SocialMedia\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\SocialMedia\SocialMedia
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/SocialMedia/SocialMedia/Pages/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/Auth/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Forum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcRm9ydW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Newsfeed.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcTmV3c2ZlZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Notifications.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcTm90aWZpY2F0aW9ucy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/SearchResult.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcU2VhcmNoUmVzdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Setting.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcU2V0dGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Shared/_AdditionalLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcU2hhcmVkXF9BZGRpdGlvbmFsTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Shared/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcU2hhcmVkXF9BdXRoTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Shared/_UserLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcU2hhcmVkXF9Vc2VyTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Shop/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcU2hvcFxTaG9wLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/Shop/Shop2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcU2hvcFxTaG9wMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/TimelineFriends.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcVGltZWxpbmVGcmllbmRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/TimelineGroup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcVGltZWxpbmVHcm91cC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/TimelinePhotos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcVGltZWxpbmVQaG90b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/TimelineVideos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcVGltZWxpbmVWaWRlb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/SocialMedia/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29jaWFsTWVkaWFcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/User/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxBYm91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/SocialMedia/SocialMedia/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-dp91frbrek
