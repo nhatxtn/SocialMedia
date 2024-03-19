@@ -20,6 +20,7 @@ namespace SocialMedia.Pages.SocialMedia
 
 		public float ratedStar { get; set; }
 		public List<Group> Groups { get; set; } = new List<Group>();
+		public List<Group> SuggestedGroups { get; set; } = new List<Group>();
 
 		public void OnGet()
 		{
@@ -36,6 +37,15 @@ namespace SocialMedia.Pages.SocialMedia
 				new() { Name = "Fun Art", ImageURL = "images/resources/group9.jpg", MemberNumber = 35000000 },
 				new() { Name = "Kids Players", ImageURL = "images/resources/group10.jpg", MemberNumber = 10000000 },
 				new() { Name = "Goldi Friends", ImageURL = "images/resources/group11.jpg", MemberNumber = 14000000 }
+			});
+
+			SuggestedGroups.AddRange(new List<Group> {
+				new() { Name = "Big Biker", ImageURL = "images/resources/group12.jpg", MemberNumber = 15000000 },
+				new() { Name = "Blue Tech", ImageURL = "images/resources/group13.jpg", MemberNumber = 12000000 },
+				new() { Name = "Gold Movies", ImageURL = "images/resources/group14.jpg", MemberNumber = 125000000 },
+				new() { Name = "Musicly Friends", ImageURL = "images/resources/group15.jpg", MemberNumber = 22000000 },
+				new() { Name = "AFC Cafe", ImageURL = "images/resources/group16.jpg", MemberNumber = 5000000 },
+				new() { Name = "Volunteers", ImageURL = "images/resources/group17.jpg", MemberNumber = 12000000 }
 			});
 		}
 	}

@@ -191,54 +191,17 @@
 									<p>You May join more these relevant groups.</p>
 								</div>
 								<ul class="related-groups">
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group12.jpg" alt=""></figure>
-											<a href="#" title="">Big Biker</a>
-											<span>15K Members</span>
-											<button>join group</button>
-										</div>
-									</li>
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group13.jpg" alt=""></figure>
-											<a href="#" title="">Blue Tech</a>
-											<span>12k Members</span>
-											<button>join group</button>
-										</div>
-									</li>
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group14.jpg" alt=""></figure>
-											<a href="#" title="">Gold Movies</a>
-											<span>125M Members</span>
-											<button>join group</button>
-										</div>
-									</li>
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group15.jpg" alt=""></figure>
-											<a href="#" title="">Musicly Friends</a>
-											<span>22M Members</span>
-											<button>join group</button>
-										</div>
-									</li>
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group16.jpg" alt=""></figure>
-											<a href="#" title="">AFC Cafe</a>
-											<span>5k Members</span>
-											<button>join group</button>
-										</div>
-									</li>
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group17.jpg" alt=""></figure>
-											<a href="#" title="">Volunteers</a>
-											<span>12k Members</span>
-											<button>join group</button>
-										</div>
-									</li>
+									@foreach (var group in Model.SuggestedGroups)
+									{
+										<li>
+											<div class="group-box">
+												<figure><img src="@group.ImageURL" alt=""></figure>
+												<a href="#" title="">@group.Name</a>
+												<span>@group.MemberNumber</span>
+												<button>join group</button>
+											</div>
+										</li>
+									}
 								</ul>
 							</div>
 						</div>
