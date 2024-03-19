@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "suJoo7qZxAPNKeZVVnH3KouvXIeBUDOtwFkZzzwxai4O+hmYpCykT0CAe8p1TWdLQ4Z+XnaJZHg20FbNFe6HVg==",
+  "dgSpecHash": "o83uxwREvWyVM1QHG4llMI3DR0JV8NSQt6G7LTla9Nn9XDgNjbyJ0m0h6UIe1H4E8+sxGq8C+lpDtaVFZpRsMA==",
   "success": true,
-  "projectFilePath": "F:\\SocialMedia\\SocialMedia\\SocialMedia.csproj",
+  "projectFilePath": "D:\\Work Space\\SWD\\SocialMedia\\SocialMedia\\SocialMedia.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
-    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
+    "C:\\Users\\LAM\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.17\\microsoft.windowsdesktop.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\LAM\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.17\\microsoft.netcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\LAM\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.17\\microsoft.aspnetcore.app.ref.7.0.17.nupkg.sha512",
+    "C:\\Users\\LAM\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.17\\microsoft.netcore.app.host.win-x64.7.0.17.nupkg.sha512"
   ],
   "logs": []
 }

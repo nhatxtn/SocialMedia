@@ -1,8 +1,10 @@
 ﻿@page "/timeline-group"
+@model SocialMedia.Pages.SocialMedia.TimelineGroup
 @{
     Layout = "./Shared/_AdditionalLayout.cshtml";
-
+	ViewData["Title"] = "Timeline Group";
 }
+
 <section>
 	<div class="gap2 gray-bg">
 		<div class="container">
@@ -26,10 +28,10 @@
 										<div class="edit-seting" title="Edit Profile image">
 											<i class="fa fa-sliders"></i>
 											<ul class="more-dropdown">
-												<li><a href="setting.html" title="">Update Profile Photo</a></li>
-												<li><a href="setting.html" title="">Update Header Photo</a></li>
-												<li><a href="setting.html" title="">Account Settings</a></li>
-												<li><a href="support-and-help.html" title="">Find Support</a></li>
+												<li><a asp-page="/SocialMedia/setting" title="">Update Profile Photo</a></li>
+												<li><a asp-page="/SocialMedia/setting" title="">Update Header Photo</a></li>
+												<li><a asp-page="/SocialMedia/setting" title="">Account Settings</a></li>
+												<li><a asp-page="support-and-help.html" title="">Find Support</a></li>
 												<li><a class="bad-report" href="#" title="">Report Profile</a></li>
 												<li><a href="#" title="">Block Profile</a></li>
 											</ul>
@@ -37,12 +39,18 @@
 									</li>
 								</ul>
 								<ol class="pit-rate">
-									<li class="rated"><i class="fa fa-star"></i></li>
-									<li class="rated"><i class="fa fa-star"></i></li>
-									<li class="rated"><i class="fa fa-star"></i></li>
-									<li class="rated"><i class="fa fa-star"></i></li>
-									<li class=""><i class="fa fa-star"></i></li>
-									<li>4.7/5</li>
+									@for(int i = 0; i < 5; i++)
+									{
+										if (i < (int)Model.ratedStar)
+										{
+											<li class="rated"><i class="fa fa-star"></i></li>
+										}
+										else
+										{
+											<li class=""><i class="fa fa-star"></i></li>
+										}
+									}
+									<li>@Model.ratedStar/5</li>
 								</ol>
 							</figure>
 
@@ -69,29 +77,29 @@
 									<div class="col-lg-10 col-md-9">
 										<ul class="profile-menu">
 											<li>
-												<a class="" href="timeline.html">Timeline</a>
+												<a class="" asp-page="timeline.html">Timeline</a>
 											</li>
 											<li>
-												<a class="" href="about.html">About</a>
+												<a class="" asp-page="about.html">About</a>
 											</li>
 											<li>
-												<a class="" href="timeline-friends.html">Friends</a>
+												<a class="" asp-page="/SocialMedia/TimelineFriends">Friends</a>
 											</li>
 											<li>
-												<a class="" href="timeline-photos.html">Photos</a>
+												<a class="" asp-page="/SocialMedia/TimelinePhotos">Photos</a>
 											</li>
 											<li>
-												<a class="" href="timeline-videos.html">Videos</a>
+												<a class="" asp-page="/SocialMedia/TimelineVideos">Videos</a>
 											</li>
 											<li>
 												<div class="more">
 													<i class="fa fa-ellipsis-h"></i>
 													<ul class="more-dropdown">
 														<li>
-															<a href="timeline-groups.html">Profile Groups</a>
+															<a asp-page="/SocialMedia/TimelineGroup">Profile Groups</a>
 														</li>
 														<li>
-															<a href="statistics.html">Profile Analytics</a>
+															<a asp-page="statistics.html">Profile Analytics</a>
 														</li>
 													</ul>
 												</div>
@@ -162,95 +170,16 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group1.jpg" alt=""></figure>
-											<a href="#" title="">Sports Punch</a>
-											<span>125M Members</span>
-											<button>join group</button>
+									@foreach(var group in Model.Groups) {
+										<div class="col-lg-2 col-md-4 col-sm-4">
+											<div class="group-box">
+												<figure><img src="@group.ImageURL" alt=""></figure>
+												<a href="#" title="">@group.Name</a>
+												<span>@group.MemberNumber Members</span>
+												<button>join group</button>
+											</div>
 										</div>
-									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group2.jpg" alt=""></figure>
-											<a href="#" title="">Asian Girls</a>
-											<span>12k Members</span>
-											<button>join group</button>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group3.jpg" alt=""></figure>
-											<a href="#" title="">Graphic Design</a>
-											<span>125M Members</span>
-											<button>join group</button>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group4.jpg" alt=""></figure>
-											<a href="#" title="">Family Lovers</a>
-											<span>1M Members</span>
-											<button>join group</button>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group5.jpg" alt=""></figure>
-											<a href="#" title="">School Mates</a>
-											<span>22M Members</span>
-											<button>join group</button>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group6.jpg" alt=""></figure>
-											<a href="#" title="">Panama Beach</a>
-											<span>5M Members</span>
-											<button>join group</button>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group7.jpg" alt=""></figure>
-											<a href="#" title="">Online Teching</a>
-											<span>52k Members</span>
-											<button>join group</button>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group8.jpg" alt=""></figure>
-											<a href="#" title="">Child Cares</a>
-											<span>1M Members</span>
-											<button>join group</button>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group9.jpg" alt=""></figure>
-											<a href="#" title="">Fun Art</a>
-											<span>35k Members</span>
-											<button>join group</button>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group10.jpg" alt=""></figure>
-											<a href="#" title="">Kids Players</a>
-											<span>10M Members</span>
-											<button>join group</button>
-										</div>
-									</div>
-									<div class="col-lg-2 col-md-4 col-sm-4">
-										<div class="group-box">
-											<figure><img src="images/resources/group11.jpg" alt=""></figure>
-											<a href="#" title="">Goldi Friends</a>
-											<span>14M Members</span>
-											<button>join group</button>
-										</div>
-									</div>
-								</div>
+									}
 								<div class="lodmore">
 									<span>Viewing 1-11 of 302 Groups</span>
 									<button class="btn-view btn-load-more"></button>
@@ -262,54 +191,17 @@
 									<p>You May join more these relevant groups.</p>
 								</div>
 								<ul class="related-groups">
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group12.jpg" alt=""></figure>
-											<a href="#" title="">Big Biker</a>
-											<span>15K Members</span>
-											<button>join group</button>
-										</div>
-									</li>
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group13.jpg" alt=""></figure>
-											<a href="#" title="">Blue Tech</a>
-											<span>12k Members</span>
-											<button>join group</button>
-										</div>
-									</li>
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group14.jpg" alt=""></figure>
-											<a href="#" title="">Gold Movies</a>
-											<span>125M Members</span>
-											<button>join group</button>
-										</div>
-									</li>
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group15.jpg" alt=""></figure>
-											<a href="#" title="">Musicly Friends</a>
-											<span>22M Members</span>
-											<button>join group</button>
-										</div>
-									</li>
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group16.jpg" alt=""></figure>
-											<a href="#" title="">AFC Cafe</a>
-											<span>5k Members</span>
-											<button>join group</button>
-										</div>
-									</li>
-									<li>
-										<div class="group-box">
-											<figure><img src="images/resources/group17.jpg" alt=""></figure>
-											<a href="#" title="">Volunteers</a>
-											<span>12k Members</span>
-											<button>join group</button>
-										</div>
-									</li>
+									@foreach (var group in Model.SuggestedGroups)
+									{
+										<li>
+											<div class="group-box">
+												<figure><img src="@group.ImageURL" alt=""></figure>
+												<a href="#" title="">@group.Name</a>
+												<span>@group.MemberNumber</span>
+												<button>join group</button>
+											</div>
+										</li>
+									}
 								</ul>
 							</div>
 						</div>
